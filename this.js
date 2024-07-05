@@ -8,5 +8,9 @@ const user = {
   },
 };
 
-console.log("normal fun", user.greet());
-console.log("arrow fun", user.farewell());
+const abc = Object.freeze({name: 'vivek'});
+
+console.log("abc", abc.name = 'Nishit');
+
+// console.log("normal fun", user.greet());
+// console.log("arrow fun", user.farewell());
