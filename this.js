@@ -9,8 +9,8 @@ const user = {
 };
 
 const abc = Object.freeze({name: 'vivek'});
-
-console.log("abc", abc.name = 'Nishit');
+abc.name = 'Nishit'
+console.log("abc", abc);
 
 // console.log("normal fun", user.greet());
 // console.log("arrow fun", user.farewell());
